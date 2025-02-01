@@ -9,7 +9,7 @@ import React from 'react';
 import ReactPlayer from 'react-player';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
-import Balancer from 'react-wrap-balancer';
+
 
 
 function vidPlay(){
@@ -66,38 +66,38 @@ function App() {
       </div>
       <div className="sites" style={{display:'flex'}}>
         <img src={site1} alt="Site1"/>
-        <p style={{marginLeft:'700px', marginTop:'50px', textAlign:'justify', flex: 1, flexWrap:'wrap', textWrap:'balance'}}>
-          <Balancer>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, 
+        <p style={{marginLeft:'325px', marginTop:'50px', textAlign:'justify',  flexWrap:'wrap', textWrap:'balance', fontSize:'20px', font:'Roboto',width:'40%'}}>
+          Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, 
           dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, 
           ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
           Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
           Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. 
-          Aliquam in elementum tellus.</Balancer>
+          Aliquam in elementum tellus.
           </p>
       </div>
       <div className="sites2" style={{display:'flex'}}>
-        <p style={{marginLeft:'100px', marginTop:'50px', textAlign:'justify', flex: 1, flexWrap:'wrap', textWrap:'balance'}}>
-          <Balancer>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, 
+        <p style={{marginLeft:'100px', marginTop:'50px', textAlign:'justify', flexWrap:'wrap', textWrap:'balance', fontSize:'20px', font:'Roboto',width:'40%'}}>
+          Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, 
           dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, 
           ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
           Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
           Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. 
-          Aliquam in elementum tellus.</Balancer>
+          Aliquam in elementum tellus.
           </p>
-          <img src={site2} alt="Site1"/>
+          <img src={site2} alt="Site2"/>
       </div>
       <div className="sites" style={{display:'flex'}}>
-        <img src={site3} alt="Site1"/>
-        <p style={{marginLeft:'700px', marginTop:'50px', textAlign:'justify', flex: 1, flexWrap:'wrap', textWrap:'balance'}}>
-          <Balancer>Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, 
+        <img src={site3} alt="Site3"/>
+        <p style={{marginLeft:'325px', marginTop:'50px', textAlign:'justify', flexWrap:'wrap', textWrap:'balance', fontSize:'20px', font:'Roboto',width:'40%'}}>
+          Rorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, 
           dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem sollicitudin lacus, 
           ut interdum tellus elit sed risus. Maecenas eget condimentum velit, sit amet feugiat lectus.
           Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. 
           Praesent auctor purus luctus enim egestas, ac scelerisque ante pulvinar. Donec ut rhoncus ex. 
           Suspendisse ac rhoncus nisl, eu tempor urna. Curabitur vel bibendum lorem. Morbi convallis convallis diam sit amet lacinia. 
-          Aliquam in elementum tellus.</Balancer>
+          Aliquam in elementum tellus.
           </p>
       </div>
       <footer className="footer">
