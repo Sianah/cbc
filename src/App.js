@@ -104,14 +104,22 @@ function App() {
         <div className = "footer-titles" style={{display:'flex' , justifyContent:'space-between'}}>
         <h3 style={{color:'#333'}}>Construction By Cadena</h3>
         <h3 style={{color:'#333'}}>Socials</h3>
-        <h3 style={{color:'#333'}}>inquiries</h3>
+        <h3 style={{color:'#333'}}>Inquiries</h3>
         </div>
+        <div className = "footer-titles" style={{display:'flex' , justifyContent:'space-between'}}>
         <h4 style={{color: '#878787'}}>Lorem ipsum dolor sit amet, consectetur <br/>adipiscing elit.</h4>
+        <h4 style={{color: '#878787'}}><u>Facebook</u><br/><u>Instagram</u><br/><u>Twitter</u></h4>
+        <h4 style={{color: '#878787'}}>For any inquiries,<br/> questions or <br/> commendations, <br/> please call:<br/>(123)-456-7890</h4>
+        </div>
         <ul/>
         <h4 style={{color: '#878787'}}>123 Sesame Street</h4>
         <ul/>
         <h4 style={{color: '#878787'}}>Office: (123)-456-7890<br/>
         Support@ConstructionByCadena.com</h4>
+        <ul/>
+        <div className='copyright' style={{display:'flex', justifyContent:'center', marginTop:'200px'}}>
+        <h4 style={{color: '#878787'}}>© 2024 Construction by Cadena. All rights reserved.</h4>
+        </div>
       </footer>
     </div>
   );
