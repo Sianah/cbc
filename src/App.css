@@ -14,3 +14,27 @@
 .navbar-brand{
   height:30;
 }
+.vid-container {
+  height: 100vh;
+  overflow: hidden;
+}
+.sites img {
+  height: 20%;
+  width: 20%;
+  padding: 20px;
+  margin-left: 200px;
+  margin-top: -10px;
+}
+.sites2 img {
+  height: 20%;
+  width: 20%;
+  padding: 20px;
+  margin-right: 200px;
+  margin-top: -10px;
+}
+
+.footer{
+  text-align: left;
+  padding:200px;
+  width: 100%;
+}
