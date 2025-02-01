@@ -1,7 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import img from './img/CBC Logo.png';
-// import video from './img/CBC.mp4';
+import video from './img/CBC.mp4';
 import site1 from './img/site1.png';
 import site2 from './img/site2.png';
 import site3 from './img/site3.png';
