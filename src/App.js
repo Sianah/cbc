@@ -12,18 +12,18 @@ import { faAngleDown } from '@fortawesome/free-solid-svg-icons'
 import Balancer from 'react-wrap-balancer';
 
 
-// function vidPlay(){
-//   return(
-//     <ReactPlayer 
-//     url={video} 
-//     playing = {true}
-//     loop = {true}
-//     muted = {true}
-//     width = "100%" 
-//     height = "100%" 
-//      />
-//   );
-// }
+function vidPlay(){
+  return(
+    <ReactPlayer 
+    url={video} 
+    playing = {true}
+    loop = {true}
+    muted = {true}
+    width = "100%" 
+    height = "100%" 
+     />
+  );
+}
 
 function App() {
   return (
@@ -59,7 +59,7 @@ function App() {
           </div>
         </div>
       </nav>
-      {/* {vidPlay()} */}
+      {vidPlay()}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column', marginTop: '20px' }}>
         <FontAwesomeIcon icon={faAngleDown} size="2x" color='#CB9B2B' style={{ marginBottom: '-20px' }}/>
         <FontAwesomeIcon icon={faAngleDown} size="2x" color='#CB9B2B'/>
